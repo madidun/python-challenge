@@ -17,7 +17,7 @@ csv_header = next(csvreader)
 
 for row in csv_reader
 
-total vote +=1
 
+results
 print(financial analysis)
-print("-------------------")
+
