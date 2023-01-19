@@ -15,18 +15,31 @@ profit_decrease = 0
 
 with open(election_data,"") as csv
 csvreader =csvreader(csvfile,delimiter="" ) 
-csv_header = next(csvreder)
+csv_header = next(csvreader)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 for row in csv_reader
 
-total vote +=1
 
 candidate_name = row[2]
 county_name =row[1]
-if candidate_name is not a option
 
-candidate_options.append(candidate_name)
-if candidate_name is not on the list, add their name to the list]
+
+
+if candidate_name is not on the list, add their name to the list
 find the winner
 winner = max(vote_count)
 index = vote_count
