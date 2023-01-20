@@ -9,15 +9,16 @@ total_profit_losses = 0
 profit_loss_change = 0
 profit_increase = 0
 
-budget_data=os.path.join = "PyPoll/Resources/budget_data.csv"
+budget_data = os.path.join("Resources", "budget_data.csv")
 
-with open(budget_data,"") as csv
-csvreader =csvreader(csvfile,delimiter="" ) 
-csv_header = next(csvreader)
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
+with open(budget_data) as csv_file:
+    csv_reader =csv.reader(csv_file) 
+    csv_header = next(csv_reader)
 
-for row in csv_reader
+    for row in csv_reader:
+        print(row)
 
 
-results
-print(financial analysis)
+
 
